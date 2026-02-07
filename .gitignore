@@ -66,3 +66,8 @@ htmlcov/
 # =========================
 *.bak
 *.backup
+
+# Project Specific
+db/*.jpg
+!db/example.png
+log.txt
