@@ -51,15 +51,8 @@ dist/
 # =========================
 # Database files
 # =========================
-db/
 *.sqlite3
-*.db
 
-# =========================
-# Project-specific folders
-# =========================
-Known People/
-db/
 
 # =========================
 # Testing / coverage
