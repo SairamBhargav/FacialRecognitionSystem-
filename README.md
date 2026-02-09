@@ -1,24 +1,21 @@
-# Face Recognition Attendance System ⚡
+# Face Recognition Attendance System 
 
-A professional, real-time facial recognition attendance system featuring a modern, GitHub-inspired Dark Mode UI. This project is designed for high-performance face detection and recognition, suitable for small to medium-scale attendance tracking.
+A real time facial recognition attendance system designed for face detection and recognition, suitable for small to medium-scale attendance tracking.
 
-![Sample UI](db/example.png)
 
-## 🌟 Key Features
+## Key Features
 - **Real-time Recognition**: Processes webcam feeds at high FPS with optimized recognition cycles.
-- **Modern UI**: Sleek Dark Mode interface built with custom Tkinter styling.
-- **GitHub Aesthetics**: Beautiful status indicators, hover effects, and a responsive layout.
 - **Local Persistence**: Stores user face data and attendance logs locally (no cloud required).
-- **Pro Features**: Recent activity log, tooltips, and real-time status updates.
+- **Features**: Recent activity log, tooltips, and real-time status updates.
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Python 3.10+**
 - **OpenCV**: Camera feed processing and image handling.
-- **face_recognition (dlib)**: State-of-the-art deep learning models for face encoding.
+- **face_recognition (dlib)**: deep learning model for face encoding.
 - **Tkinter (PIL/Pillow)**: Custom-styled GUI.
 - **NumPy**: Efficient numerical operations for face distance calculations.
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Prerequisites
 - **Visual Studio Build Tools**: Required for `dlib` compilation (C++ CMake).
@@ -48,12 +45,12 @@ pip install -r requirements.txt
 python src/main.py
 ```
 
-## 📖 Usage Guide
+## Usage Guide
 1. **Registration**: Click **➕ NEW USER**, enter a name, capture a photo, and save.
 2. **Attendance**: Simply stand in front of the camera and click **🔐 CLOCK IN**.
 3. **Logs**: View recent activity directly in the interface or check `log.txt` in the root directory.
 
-## 📂 Project Structure
+## Project Structure
 ```text
 ├── db/              # Stores registered user face images (.jpg)
 ├── src/             # Core application source code
@@ -63,5 +60,3 @@ python src/main.py
 └── log.txt          # Attendance records (generated)
 ```
 
-## ⚖️ License
-This project is open-source and available under the MIT License.
